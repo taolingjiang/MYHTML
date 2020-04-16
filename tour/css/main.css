@@ -1,0 +1,134 @@
+html {
+    background-color: white;
+}
+
+body {
+    background-color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 50px;
+}
+
+.qui-header {
+    background-color: #2bab79;
+    height: 60px;
+
+}
+
+.plcRoutelist {
+    margin-left: 5px;
+}
+
+.pic {
+    border-radius: 50%;
+}
+
+.titel {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    top: 0px;
+    left: 10px;
+    white-space: nowrap;
+    line-height: 60px;
+    margin-left: 40px;
+    /*border: 1px solid black;*/
+}
+
+.bottom {
+    position: absolute;
+    top: 395px;
+    left: 460px;
+}
+
+.face {
+    float: left;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+}
+
+.day {
+    position: absolute;
+    top: 100px;
+    right: 440px;
+    border-radius: 50%;
+    color: white;
+    background-color: #2ba279;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 40px;
+}
+
+em {
+    font-style: normal;
+    font-weight: bolder;
+}
+
+span {
+    margin-left: 30px;
+}
+
+.day1 {
+    position: absolute;
+    top: 480px;
+    right: 440px;
+    border-radius: 50%;
+    color: white;
+    background-color: #2ba279;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 40px;
+}
+.qui-aside {
+    position: absolute;
+    top: 50px;
+    left: 238px;
+    height: 870px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: #2d3741;
+}
+.nav-aside{
+    padding: 80px 10px;
+}
+ul{
+    list-style: none;
+}
+.nav-aside a{
+    font-size: 16px;
+    color: #ced1d5;
+    text-decoration: none;
+    line-height: 50px;
+    padding-left: 25px;
+    display: block;
+}
+.nav-aside a:hover{
+    color: white;
+    background-color: #2bab79;
+}
+.qui-footer{
+    /*border: 1px solid black;*/
+    line-height: 20px;
+    text-align: center;
+    height: 60px;
+    background-color: #444;
+}
+.qui-footer a{
+    text-decoration: none; 
+    line-height: 60px;
+    color: white;
+    margin-left: 35px;
+    font-size: 20px;
+}
